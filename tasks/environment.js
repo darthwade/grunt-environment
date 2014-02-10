@@ -5,10 +5,8 @@ module.exports = function (grunt) {
 
   grunt.registerTask('environment', 'Replace text patterns with a given replacement.', function (target) {
 
-    var options = this.options({});
+    var options = grunt.config.get('environment');
     var manager = new EnvironmentManager(grunt, options);
-
-    manager.injectEnvironmentSettings();
 
     if (target) {
       // Set environment
