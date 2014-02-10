@@ -1,0 +1,44 @@
+{
+  "name": "grunt-contrib-environment",
+  "version": "0.1.0",
+  "description": "Flexible environment configuration with Grunt",
+  "homepage": "https://github.com/darth-wade/grunt-contrib-environment",
+  "author": {
+    "name": "Vadym Petrychenko",
+    "url": "http://7ninjas.com/@wade"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darth-wade/grunt-contrib-environment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darth-wade/grunt-contrib-environment/issues"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt-lib-contrib": "~0.5.1",
+    "merge": "~1.1.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
