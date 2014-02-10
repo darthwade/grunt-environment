@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
   'use strict';
 
-  var EnvironmentManager = require('./utils/EnvironmentManager.js');
+  var EnvironmentManager = require('../utils/EnvironmentManager.js');
 
   grunt.registerTask('environment', 'Replace text patterns with a given replacement.', function (target) {
 
