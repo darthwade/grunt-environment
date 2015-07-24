@@ -85,7 +85,7 @@ module.exports = function(grunt, options) {
 
     var activeEnv = self.getActiveEnvironment();
     var settings = loadSettings(activeEnv);
-    return grunt.util._.extend({}, defaultSettings, settings);
+    return grunt.util._.merge({}, defaultSettings, settings);
   };
 
   self.injectEnvironmentSettings = function() {
