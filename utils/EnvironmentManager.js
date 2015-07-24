@@ -51,7 +51,7 @@ module.exports = function(grunt, options) {
     if (grunt.file.exists(filePath)) {
       return importer.read(filePath);
     } else {
-      throw new Error('Configuration file "' + filePath + '" does not exists.');
+      throw new Error('Configuration file "' + filePath + '" does not exist.');
     }
   };
 
@@ -68,7 +68,7 @@ module.exports = function(grunt, options) {
   self.setEnvironment = function(env) {
     var settingsFilePath = getSettingsPath(env);
     if (!grunt.file.exists(settingsFilePath)) {
-      throw new Error('Environment "' + env + '" doesn\'t exists');
+      throw new Error('Environment "' + env + '" doesn\'t exist');
     }
 
     var filePath = path.join(options.src, options.envFilePath);
